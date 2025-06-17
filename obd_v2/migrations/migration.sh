@@ -1,0 +1,3 @@
+curl.exe -X POST "http://localhost:8123/?user=admin&password=admin123" --data-binary "@C:\obd_v2\migrations\create_clean_table.sql"
+curl.exe -X POST "http://localhost:8123/?user=admin&password=admin123" --data-binary "@C:\obd_v2\migrations\create_injected_table.sql"
+curl.exe -X POST "http://localhost:8123/?user=admin&password=admin123" --data-binary "@C:\obd_v2\migrations\create_anomalies_table.sql"
